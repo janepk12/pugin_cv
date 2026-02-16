@@ -233,8 +233,48 @@ a:hover {
         grid-template-columns: 1fr;
         gap: 5px;
     }
-    
+
     .name {
         font-size: 2rem;
     }
+}
+
+/* The container for all links */
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 20px;
+    margin-top: 15px;
+}
+
+/* The individual link wrapper */
+.social-links a {
+    display: flex;
+    align-items: center;
+    /* Vertical centering of icon and text */
+    text-decoration: none;
+    color: #0db7e2;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* THE PREDEFINED FRAME */
+.link-icon {
+    width: 1.2em;
+    /* Dynamic width based on font-size */
+    height: 1.2em;
+    /* Dynamic height based on font-size */
+    margin-right: 8px;
+    /* Gap between frame and text */
+
+    /* These three properties ensure the logo fits the frame perfectly */
+    object-fit: contain;
+    /* Keeps logo proportions without stretching */
+    display: block;
+    flex-shrink: 0;
+    /* Prevents the frame from squishing on small screens */
+
+    /* Optional: subtle rounding if your logos have backgrounds */
+    border-radius: 2px;
 }
