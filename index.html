@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Minimalist CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="theme-switch-wrapper">
+        <button id="theme-toggle" aria-label="Switch Color Scheme">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <!-- Image can be added here -->
+            <div class="profile-image-container">
+                <!-- <img src="profile.jpg" alt="Profile Picture" class="profile-image"> -->
+                <div class="profile-placeholder"></div> 
+            </div>
+            
+            <h1 class="name">Your Name</h1>
+            <p class="title">Software Engineer | Designer | Creator</p>
+            
+            <div class="social-links">
+                <a href="#" target="_blank">GitHub</a>
+                <a href="#" target="_blank">LinkedIn</a>
+                <a href="mailto:email@example.com">Email</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <p>
+                Hello! I am a passionate professional with a knack for building clean and efficient solutions. 
+                I believe in minimalism and clarity in both design and code. This is a brief introduction about who I am and what drives me.
+            </p>
+        </section>
+
+        <section id="experience" class="section">
+            <h2 class="section-title">Experience</h2>
+            
+            <div class="experience-item">
+                <div class="date">2023 - Present</div>
+                <div class="content">
+                    <h3>Senior Developer</h3>
+                    <span class="company">Tech Company Inc.</span>
+                    <p>Leading development of scalable web applications. Mentoring junior developers and streamlining deployment pipelines.</p>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="date">2021 - 2023</div>
+                <div class="content">
+                    <h3>Web Developer</h3>
+                    <span class="company">Creative Agency</span>
+                    <p>Developed responsive websites for various clients. Collaborated with designers to implement pixel-perfect UIs.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>A minimalist CV website built with HTML, CSS, and vanilla JavaScript. Features a dark mode toggle and responsive design.</p>
+                    <a href="#" class="project-link">View Project &rarr;</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>Task Manager App</h3>
+                    <p>A productivity application to manage daily tasks. Built with React and Node.js.</p>
+                    <a href="#" class="project-link">View Project &rarr;</a>
+                </article>
+                
+                 <article class="project-card">
+                    <h3>Data Visualization Tool</h3>
+                    <p>Interactive charts and graphs using D3.js to visualize complex datasets.</p>
+                    <a href="#" class="project-link">View Project &rarr;</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="section-title">Skills</h2>
+            <ul class="skills-list">
+                <li>JavaScript (ES6+)</li>
+                <li>HTML5 & CSS3</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Git & GitHub</li>
+                <li>UI/UX Design</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
